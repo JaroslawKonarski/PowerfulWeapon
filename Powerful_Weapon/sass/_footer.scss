@@ -1,0 +1,36 @@
+#footer {
+	width: 100%;
+	background-color: $color_grey;
+	border-radius: 40px 40px 0 0;
+	margin-top: 200px;
+}
+.footer-info {
+	width: 80%;
+	margin: auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.footer-logo {
+	p {
+		font-style: normal;
+		color: $color_white;
+	}
+}
+.footer-links {
+	ul {
+		li {
+			a {
+				font-weight: 300;
+				font-style: normal;
+				font-size: 20px;
+				text-decoration: underline;
+				color: $color_white;
+			}
+		}
+	}
+}
